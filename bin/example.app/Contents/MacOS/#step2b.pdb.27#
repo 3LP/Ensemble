@@ -1,0 +1,57 @@
+TITLE     initial coordinates
+REMARK    THIS IS A SIMULATION BOX
+CRYST1   14.333    6.964   10.129  90.00  90.00  90.00 P 1           1
+ATOM      1  N   ALA     1      -2.284  -4.422  -1.194
+ATOM      2  H1  ALA     1      -2.773  -4.888  -1.946
+ATOM      3  H2  ALA     1      -1.315  -4.300  -1.449
+ATOM      4  H3  ALA     1      -2.258  -4.759  -0.242
+ATOM      5  CA  ALA     1      -2.028  -2.987  -1.391
+ATOM      6  HA  ALA     1      -1.151  -2.719  -0.804
+ATOM      7  CB  ALA     1      -1.689  -2.612  -2.831
+ATOM      8  HB1 ALA     1      -2.459  -2.995  -3.502
+ATOM      9  HB2 ALA     1      -1.592  -1.527  -2.797
+ATOM     10  HB3 ALA     1      -0.746  -2.977  -3.238
+ATOM     11  C   ALA     1      -3.242  -2.145  -1.024
+ATOM     12  O   ALA     1      -4.395  -2.492  -1.273
+ATOM     13  N   ALA     2      -2.965  -0.923  -0.562
+ATOM     14  H   ALA     2      -2.018  -0.584  -0.544
+ATOM     15  CA  ALA     2      -3.902   0.183  -0.514
+ATOM     16  HA  ALA     2      -4.730  -0.057   0.154
+ATOM     17  CB  ALA     2      -3.197   1.321   0.218
+ATOM     18  HB1 ALA     2      -2.452   1.936  -0.288
+ATOM     19  HB2 ALA     2      -3.987   2.051   0.398
+ATOM     20  HB3 ALA     2      -2.886   1.266   1.262
+ATOM     21  C   ALA     2      -4.444   0.646  -1.859
+ATOM     22  O   ALA     2      -3.864   0.553  -2.940
+ATOM     23  N   ALA     3      -5.633   1.238  -1.716
+ATOM     24  H   ALA     3      -5.946   1.473  -0.785
+ATOM     25  CA  ALA     3      -6.513   1.682  -2.780
+ATOM     26  HA  ALA     3      -6.683   0.917  -3.539
+ATOM     27  CB  ALA     3      -7.895   1.919  -2.177
+ATOM     28  HB1 ALA     3      -8.723   2.166  -2.842
+ATOM     29  HB2 ALA     3      -8.298   1.247  -1.419
+ATOM     30  HB3 ALA     3      -7.921   2.810  -1.550
+ATOM     31  C   ALA     3      -5.989   2.918  -3.498
+ATOM     32  O   ALA     3      -5.728   3.941  -2.868
+ATOM     33  N   ALA     4      -6.052   2.952  -4.833
+ATOM     34  H   ALA     4      -6.483   2.181  -5.324
+ATOM     35  CA  ALA     4      -5.943   4.161  -5.631
+ATOM     36  HA  ALA     4      -5.379   4.835  -4.980
+ATOM     37  CB  ALA     4      -4.955   3.872  -6.761
+ATOM     38  HB1 ALA     4      -4.585   4.706  -7.360
+ATOM     39  HB2 ALA     4      -4.079   3.442  -6.275
+ATOM     40  HB3 ALA     4      -5.360   3.209  -7.527
+ATOM     41  C   ALA     4      -7.298   4.715  -6.065
+ATOM     42  O   ALA     4      -8.241   3.959  -6.314
+ATOM     43  N   ALA     5      -7.178   6.050  -6.106
+ATOM     44  H   ALA     5      -8.560   5.888  -6.562
+ATOM     45  CA  ALA     5      -8.417   6.737  -6.414
+ATOM     46  HA  ALA     5      -9.127   6.001  -6.798
+ATOM     47  CB  ALA     5      -9.148   7.268  -5.183
+ATOM     48  HB1 ALA     5      -8.371   7.888  -4.736
+ATOM     49  HB2 ALA     5     -10.078   7.827  -5.282
+ATOM     50  HB3 ALA     5      -9.062   6.363  -4.582
+ATOM     51  C   ALA     5      -8.391   7.806  -7.501
+ATOM     52  OC1 ALA     5      -7.649   8.800  -7.343
+ATOM     53  OC2 ALA     5      -9.039   7.690  -8.564
+TER

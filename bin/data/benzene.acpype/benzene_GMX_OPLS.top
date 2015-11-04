@@ -1,0 +1,14 @@
+; benzene_GMX_OPLS.top created by acpype (Rev: 0) on Mon May 25 23:41:58 2015
+
+; Include forcefield parameters
+#include "ffoplsaa.itp"
+
+; Include benzene_GMX.itp topology
+#include "benzene_GMX.itp"
+
+[ system ]
+ benzene
+
+[ molecules ]
+; Compound        nmols
+ benzene          1     

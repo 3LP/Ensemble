@@ -1,0 +1,41 @@
+title               =  alanine dipeptide
+cpp                 =  /lib/cpp   						; prepocessor of the current machine
+define              =  -DFLEXIBLE						; -DPOSRES, -DPOSRES_IONS ;DFLEX_SPC; FLEXible SPC and POSition REStraints
+
+integrator          =  steep    						; steepest descent algorithm
+dt                  =  0.005    						; time step in ps
+nsteps              =  5000      						; number of steps
+
+emtol               =  100   							; convergence criterion
+emstep              =  0.05     						; intial step size
+constraints           = none
+constraint-algorithm  = lincs
+unconstrained-start   = no  							; Do not constrain the start configuration
+;shake_tol           = 0.0001
+nstlist             =  0   							; step frequency for updating neighbour list
+ns_type             =  simple 							; grid ; method for nighbour searching (?)
+nstxout             =  100    							; frequency for writing coords to output
+nstvout             =  100    							; frequency for writing velocities to output
+nstfout             =  0    ; frequency for writing forces to output
+nstlog              =  100    ; frequency for writing energies to log file
+nstenergy           =  100  ; frequency for writing energies to energy file
+nstxtcout           =  0    ; frequency for writing coords to xtc traj
+xtc_grps            =  system ; group(s) whose coords are to be written in xtc traj
+energygrps          =  system ; group(s) whose energy is to be written in energy file
+pbc                 =  no    ; use pbc
+rlist               =  1.4    ; cutoff (nm)
+coulombtype         =  cutoff ; truncation for minimisation, with large cutoff
+rcoulomb            =  1.4
+vdwtype             =  cut-off  ; truncation for minimisation, with large cutoff
+rvdw                =  1.4
+nstcomm             =  0  ; number of steps for centre of mass motion removal (in vacuo only!)
+Tcoupl              =  no
+Pcoupl              =  no
+gen_vel             =  no
+ Free energy control stuff
+free_energy              = yes
+init_lambda              = 0.0
+delta_lambda             = 0
+sc_alpha                 =0.5
+sc-power                 =1.0
+sc-sigma                 = 0.3

@@ -1,0 +1,23 @@
+
+; Include 
+#include "amber99sb-ildn.ff/forcefield.itp"
+
+; Include 1-bromobutane topology
+#include "organic.itp"
+
+; Include tip3p solvent topology
+#include "amber99sb-ildn.ff/tip3p.itp"
+
+; Include position restraint
+#ifdef POSRES 
+#include "posre.itp"
+#endif
+
+
+[ system ]
+q4md-bCD in water
+
+[ molecules ]
+; Compound        nmols
+12-dichloroethane      	283
+SOL             	 2180

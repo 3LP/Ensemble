@@ -1,0 +1,20 @@
+# This file was created Mon May 25 11:58:10 2015
+# by the following command:
+# g_mindist -f md.gro -s md.tpr -od mindist.xvg 
+#
+# g_mindist is part of G R O M A C S:
+#
+# Green Red Orange Magenta Azure Cyan Skyblue
+#
+@    title "Minimum Distance"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Distance (nm)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Protein-Protein"
+0.000000e+00  1.001748e-01

@@ -1,0 +1,15 @@
+; benzene_GMX.top created by acpype (Rev: 0) on Mon May 25 23:41:58 2015
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5     0.8333
+
+; Include benzene_GMX.itp topology
+#include "benzene_GMX.itp"
+
+[ system ]
+ benzene
+
+[ molecules ]
+; Compound        nmols
+ benzene          1     
